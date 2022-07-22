@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    color: #444444;
+}
+
+.header-container {
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    display: flex;
+    justify-content: center;
+}
+
+.header, .card {
+    width: 900px;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    margin: 100px 0;
+}
+
+.zag {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.mac {
+    width: 500px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > p {
+    margin: 4px;
+    padding: 4px;
+}
+
+.some-container {
+    display: flex;
+}
+
+.some {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+
+.lyrics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+    height: 300px;
+}
+
+.lyrics {
+    width: 600px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-style: italic;
+    margin: 0;
+    color: black;
+    padding: 0;
+}
+
+.author {
+    text-align: right;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+    padding: 0;
+}
+
+.cards {
+    width: 130px;
+    border-radius: 12px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    text-align: center;
+}
+
+.dialog-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    width: 700px;
+    color: #E5E7Eb;
+    height: 100px;
+    display: flex;
+    padding: 10px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.low {
+    border: 1px solid white;
+    height: 40px;
+}
+
+.dialog-h {
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
