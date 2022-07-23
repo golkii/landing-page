@@ -12,9 +12,13 @@ body {
     justify-content: center;
 }
 
-.header, .card {
+.header {
     width: 900px;
     padding: 20px;
+}
+
+.card {
+    width: 900px;
 }
 
 .top {
@@ -66,13 +70,16 @@ button {
     align-items: center;
 }
 
-.card > p {
-    margin: 4px;
-    padding: 4px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
 }
 
-.some-container {
-    display: flex;
+.block> p {
+    margin: 8px;
+    padding: 8px;
 }
 
 .some {
@@ -80,6 +87,11 @@ button {
     font-size: 24px;
     font-weight: 800;
     color: black;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lyrics-container {
@@ -113,19 +125,20 @@ button {
 .cards {
     width: 130px;
     border-radius: 12px;
+    border: 3px solid #3882f6;
 }
 
 .pics {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
 }
 
 .block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 130px;
+    width: 150px;
     text-align: center;
 }
 
